@@ -19,13 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{76DBA957-38F6-47ED-A5C0-AD587D08FF12}</ProjectGuid>
+    <ProjectGuid>{D253C552-154D-49E1-820A-B2CD9D9FF13E}</ProjectGuid>
     <RootNamespace>$(MSBuildProjectName)</RootNamespace>
     <SupportsPackaging>false</SupportsPackaging>
     <RequiresPackageProject>true</RequiresPackageProject>
     <Configuration Condition="'$(Configuration)' == ''">Debug</Configuration>
     <Platform Condition="'$(Platform)' == ''">Win32</Platform>
-    <SampleGuid>{3D348571-DCCC-4D1B-B986-C7B51C270E20}</SampleGuid>
+    <SampleGuid>{025DDC98-E8D3-43AF-862D-3FDA9A8432E9}</SampleGuid>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -232,7 +232,7 @@
       <PreCompiledHeader>Use</PreCompiledHeader>
       <PreCompiledHeaderOutputFile>$(IntDir)\stdafx.pch</PreCompiledHeaderOutputFile>
     </ClCompile>
-    <ClCompile Include="stdafxsrc.cpp">
+    <ClCompile Include="stdafx.cpp">
       <AdditionalIncludeDirectories>;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreCompiledHeaderFile>stdafx.h</PreCompiledHeaderFile>
       <PreCompiledHeader>Create</PreCompiledHeader>
